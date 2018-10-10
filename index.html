@@ -24,7 +24,25 @@
       .gridscores {
         max-width: unset;
       }
+      a {
+        font-family: 'Roboto Mono';
+        font-weight: 400;
+        text-decoration: none;
+
+      }
+      footer a,
+      article a {
+        text-transform: uppercase;
+        font-size: .875rem;
+
+      }
+
+      article a {
+        text-decoration: underline;
+      }
     </style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
   </head>
   <body class="sans-serif xcode">
     <nav class="flex items-center justify-between pa3 ph4-l w-100">
@@ -32,9 +50,9 @@
         <img class="xw2 br-100" width="44" src="images/avatar.jpg" />
       </a>
       <div>
-        <a class="dib f6 fw6 link black ttu ml4" href="#">Work</a>
-        <a class="dib f6 fw6 link black ttu ml4" href="#">About</a>
-        <a class="dib f6 fw6 link black ttu ml4" href="#">Github</a>
+        <a class="dib black ml4" href="#">Work</a>
+        <a class="dib black ml4" href="#">About</a>
+        <a class="dib black ml4" href="#">Github</a>
       </div>
     </nav>
     <header class="pv7-l mw9 center pa3 ph4-l">
@@ -87,7 +105,7 @@
       </article>
     </section>
     <footer class="tc-l pa3">
-        <a href="" class="dib f2 link fw6 pa3-l mb6">More Work</a>
+        <a href="" class="dib pa3-l mb6">More Work</a>
         <p>&copy; Made with <a href="">Tachyons</a> and love.</p>
     <footer>
   </body>
