@@ -10,8 +10,85 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/tachyons.css">
+    <style>
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      article img {
+        box-shadow:
+        rgba(0, 0, 0, 0.075) 0px 1px 0px,
+        rgba(0, 0, 0, 0.05) 0px 1px 4px,
+        rgba(0, 0, 0, 0.05) 0px 10px 20px;
+      }
+      .gridscores {
+        max-width: unset;
+      }
+    </style>
   </head>
-  <body>
-
+  <body class="sans-serif xcode">
+    <nav class="flex items-center justify-between pa3 ph4-l w-100">
+      <a href="#">
+        <img class="xw2 br-100" width="44" src="images/avatar.jpg" />
+      </a>
+      <div>
+        <a class="dib f6 fw6 link black ttu ml4" href="#">Work</a>
+        <a class="dib f6 fw6 link black ttu ml4" href="#">About</a>
+        <a class="dib f6 fw6 link black ttu ml4" href="#">Github</a>
+      </div>
+    </nav>
+    <header class="pv7-l mw9 center pa3 ph4-l">
+      <h1 class="f4 f2-l fw6 lh-title">Hello, I&rsquo;m Roy Quilor a Designer from Hertford, England.</h1>
+    </header>
+    <section class="pa3 pa0-l ">
+      <article class="flex flex-column flex-row-l mw9 center justify-center mb6 mb7-l ">
+        <header class="mb3 mr5-l">
+          <h2 class="f4 f2-l fw6 pt5-l lh-title">Mo Code Mo Problems</h2>
+          <a href="#">See project</a>
+        </header>
+        <figure class="ma0 pa0">
+          <a href="">
+            <img class="br3" src="images/concept-3.jpg" />
+          </a>
+        </figure>
+      </article>
+      <article class="flex flex-column flex-row-l mw9 center justify-center mb6 mb7-l">
+        <figure class="ma0 pa0">
+          <a href="">
+            <img src="images/hundoiv/pokemon-1.png" width="320" />
+          </a>
+        </figure>
+        <header class="ml5-l">
+          <h2 class="f4 f2-l fw6 pt5-l lh-title">Search perfect Pokémon</h2>
+          <a class="f6 tracked ttu link" href="#">See project</a>
+        </header>
+      </article>
+      <article class="flex flex-column flex-row-l mw9 center justify-center mb6 mb7-l">
+        <header class="mb3 mr5-l">
+          <h2 class="f4 f2-l fw6 pt5-l lh-title">Minimal football scores</h2>
+          <a href="#">See project</a>
+        </header>
+        <figure class="ma0 pa0 overflow-hidden overflow-auto-l">
+          <a href="">
+            <img class="br3 gridscores" src="images/gridscores/gridscores-ipad.png" width="992" />
+          </a>
+        </figure>
+      </article>
+      <article class="flex flex-column items-center-l justify-center mb7-l">
+        <figure class="ma0 pa0">
+          <a href="">
+            <img src="images/gainsapp/0-startup.png" width="320" />
+          </a>
+        </figure>
+        <header class="mb3">
+          <h2 class="f4 f2-l fw6 pt3 pt5-l lh-title">Fitness concept app</h2>
+          <a href="#">See project</a>
+        </header>
+      </article>
+    </section>
+    <footer class="tc-l pa3">
+        <a href="" class="dib f2 link fw6 pa3-l mb6">More Work</a>
+        <p>&copy; Made with <a href="">Tachyons</a> and love.</p>
+    <footer>
   </body>
 </html>
