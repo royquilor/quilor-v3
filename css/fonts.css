@@ -1,0 +1,9 @@
+.roboto {
+  font-family: 'Roboto Mono';
+}
+
+.handwriting {
+  font-family: 'Indie Flower', cursive;
+  transform: rotate(-3deg);
+  color: #0074D9;
+}

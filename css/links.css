@@ -1,0 +1,31 @@
+a {
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  text-decoration: none;
+}
+footer a,
+article a {
+  text-transform: uppercase;
+  font-size: .875rem;
+
+}
+
+article a {
+  text-decoration: underline;
+}
+
+nav a {
+  font-size: .875rem;
+}
+
+.cta {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #111;
+  color: #fff;
+  line-height: 1;
+  padding: .75rem 2rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}

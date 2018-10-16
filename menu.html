@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+
+    </title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.css">
+    <style>
+      body {
+        overflow-x: hidden;
+        font-family: "Space mono";
+      }
+      aside {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100vh;
+        background: #eee;
+        color: #111111;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      aside a {
+        padding: 1rem;
+      }
+      main {
+        background: #fff;
+        position: relative;
+        z-index: 1;
+        xmargin-left: 200px;
+        min-height: 100vh;
+        transition: transform 200ms;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+      }
+
+      main.open {
+        transform: translate(200px, 0);
+
+      }
+
+      .toggle {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+      }
+
+      .toggle img {
+        margin-right: .5rem;
+      }
+
+
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
+  </head>
+  <body class="">
+    <aside>
+      <a class="" href="#">Work</a>
+      <a class="" href="#">About</a>
+      <a class="" href="#">Github</a>
+    </aside>
+    <main>
+      <a class="toggle link" href="#">
+        <img src="images/menu.svg">
+        Menu
+      </a>
+      <h1 class="f3 fw4">Side Menu</h1>
+    </main>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

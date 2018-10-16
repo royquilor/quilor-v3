@@ -1,0 +1,42 @@
+.quotes {
+justify-content: space-evenly;
+}
+
+.quote {
+box-shadow: 0 0 1px rgba(0,0,0, 0.15);
+xbox-shadow: 0 0 1px rgba(31,45,61,.05);
+padding: 1rem;
+border-radius: .5rem;
+font-family: 'Roboto Mono';
+xmargin: 5rem 1rem;
+xmargin-bottom: 3rem;
+xwidth: 50%;
+flex: auto;
+}
+
+.quote img {
+width: 44px;
+border-radius: 500px;
+}
+
+.quote p {
+margin: 0 0 1rem;
+max-width: 30em;
+}
+
+cite {
+color: #aaa;
+font-style: normal;
+font-size: 0.875rem;
+display: flex;
+align-items: center;
+}
+
+cite img {
+margin-right: 1rem;
+}
+
+.next,
+.prev {
+  cursor: pointer
+}
