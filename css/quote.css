@@ -2,6 +2,11 @@
 justify-content: space-evenly;
 }
 
+.quote-wrap {
+  height: 24rem;
+  xbackground: red;
+}
+
 .quote {
 box-shadow: 0 0 1px rgba(0,0,0, 0.15);
 xbox-shadow: 0 0 1px rgba(31,45,61,.05);
@@ -20,7 +25,7 @@ border-radius: 500px;
 }
 
 .quote p {
-margin: 0 0 1rem;
+margin: .5rem 0;
 max-width: 30em;
 }
 
@@ -34,6 +39,16 @@ align-items: center;
 
 cite img {
 margin-right: 1rem;
+}
+
+.btn-circle {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  border-radius: 500px;
+  background-color: #FFDC00;
+  align-items: center;
+  justify-content: center;
 }
 
 .next,

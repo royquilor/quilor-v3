@@ -10,3 +10,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+/*
+@media screen and (min-width: 30em) {}
+@media screen and (min-width: 30em) and (max-width: 60em) {}
+@media screen and (min-width: 60em) {}
+*/
