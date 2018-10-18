@@ -4,6 +4,12 @@
 
 .handwriting {
   font-family: 'Indie Flower', cursive;
-  transform: rotate(-3deg);
+  transform: rotate(0deg);
   color: #0074D9;
+}
+
+.logo {
+  font-family: 'SOLID70';
+  font-size: 44px;
+  color: #FF4136;
 }

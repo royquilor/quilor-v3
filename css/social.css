@@ -1,0 +1,36 @@
+.social {
+  xbackground: red;
+
+}
+
+.social svg {
+width: 22px;
+}
+
+.social svg {
+  fill: #333;
+}
+
+.social a {
+  margin-left: 2rem;
+}
+
+.instagram:hover svg {
+  fill: #E4405F;
+}
+
+.linkedin:hover svg {
+  fill: #0077B5;
+}
+
+.dribbble:hover svg {
+  fill: #EA4C89;
+}
+
+.github:hover svg {
+  fill: #181717;
+}
+
+.twitter:hover svg {
+  fill: #1DA1F2;
+}
