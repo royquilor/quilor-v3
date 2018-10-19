@@ -1,0 +1,15 @@
+.logo.red {
+  fill: var(--color-red);
+}
+
+.logo.black {
+  fill: var(--color-black);
+}
+
+.logo.white {
+  fill: var(--color-white);
+}
+
+.logo {
+  fill: url(#logo);
+}

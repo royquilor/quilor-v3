@@ -28,6 +28,10 @@ nav a {
 .cta {
   text-decoration: none;
   display: inline-block;
+
+  background: var(--color-red);
+  color: var(--color-white);
+
   font-weight: var(--font-weight-6);
   line-height: var(--line-height-solid);
   border-radius: var(--base-radius-large);
@@ -36,31 +40,45 @@ nav a {
 
 }
 
-.primary {
-  background: var(--color-red);
+/* #COLORS */
+
+.cta:hover {
+  background: var(--color-orange);
   color: var(--color-white);
 }
-.primary:hover {
-  background: var(--color-orange);
-}
 
-.secondary {
+.cta-line {
+  background: none;
   border-color: var(--color-red);
   border-style: solid;
   border-width: 2px;
   color: var(--color-red);
 }
-.secondary:hover {
+
+.cta-line:hover {
+  background: none;
   border-color: var(--color-orange);
   color: var(--color-orange);
 }
 
-.cta-large {
+.cta-white {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+.cta-black {
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+/* #SIZES */
+
+.cta-l {
   font-size: var(--font-size-5);
   padding: var(--base-spacing) var(--spacing-large);
 }
 
-.cta-small {
+.cta-s {
   font-size: var(--font-size-6);
   padding: var(--spacing-small) var(--base-spacing);
 }

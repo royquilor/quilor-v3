@@ -19,13 +19,26 @@
 
 .color-wrap {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  flex: 1 1 auto
+}
+
+.color-wrap div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.color-wrap span {
+  margin-bottom: var(--spacing-small);
 }
 
 .color {
   width: 88px;
   height: 88px;
-  margin-right: var(--base-spacing);
   display: inline-block;
   border-radius: var(--base-radius-large);
+
 }
