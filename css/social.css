@@ -1,36 +1,38 @@
-.social {
-  xbackground: red;
-
-}
-
 .social svg {
 width: 22px;
 }
 
 .social svg {
-  fill: #333;
+fill: var(--color-silver);
 }
 
 .social a {
-  margin-left: 2rem;
+margin: 0 var(--base-spacing);
+border-bottom: 0;
+}
+
+@media screen and (min-width: 60em) {
+  .social a {
+  margin-left: var(--spacing-large);
+  }
 }
 
 .instagram:hover svg {
-  fill: #E4405F;
+fill: var(--color-instagram);
 }
 
 .linkedin:hover svg {
-  fill: #0077B5;
+fill: var(--color-linkedin);
 }
 
 .dribbble:hover svg {
-  fill: #EA4C89;
+fill: var(--color-dribbble);
 }
 
 .github:hover svg {
-  fill: #181717;
+fill: var(--color-github);
 }
 
 .twitter:hover svg {
-  fill: #1DA1F2;
+fill: var(--color-twitter);
 }

@@ -1,3 +1,17 @@
 .flows {
-  height: 568px;
+  xheight: 568px;
+}
+
+.flows p {
+  height: 80px;
+}
+
+@media screen and (min-width: 60em) {
+  .flows {
+    height: 568px;
+  }
+  .flows p {
+    height: auto;
+  }
+
 }

@@ -1,0 +1,16 @@
+footer,
+.more {
+  background-color: var(--color-black);
+}
+
+footer {
+  padding: var(--base-spacing);
+  color: var(--color-white);
+  font-size: var(--font-size-6);
+}
+
+footer a {
+  color: var(--color-white);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-white);
+}

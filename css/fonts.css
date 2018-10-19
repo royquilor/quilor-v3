@@ -1,15 +1,9 @@
 .roboto {
-  font-family: 'Roboto Mono';
+  font-family: var(--font-roboto);
 }
 
 .handwriting {
-  font-family: 'Indie Flower', cursive;
+  font-family: var(--font-hand);
   transform: rotate(0deg);
-  color: #0074D9;
-}
-
-.logo {
-  font-family: 'SOLID70';
-  font-size: 44px;
-  color: #FF4136;
+  color: var(--color-blue);
 }

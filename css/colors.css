@@ -1,0 +1,31 @@
+.bg-red {
+  background-color: var(--color-red: #FF4136;)
+}
+.bg-orange {
+  background-color: var(--color-orange: #FF851B;)
+}
+.bg-blue {
+  background-color: var(--color-red: #0074D9;)
+}
+.bg-dark-gray {
+  background-color: var(--color-red: #333;)
+}
+.bg-black {
+  background-color: var(--color-red: #111;)
+}
+.bg-silver {
+  background-color: var(--color-red: #DDDDDD;)
+}
+
+.color-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.color {
+  width: 88px;
+  height: 88px;
+  margin-right: var(--base-spacing);
+  display: inline-block;
+  border-radius: var(--base-radius-large);
+}

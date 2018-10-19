@@ -1,4 +1,7 @@
 @import "tachyons.min.css";
+@import "variables.css";
+@import "typography.css";
+@import "colors.css";
 @import "header.css";
 @import "fonts.css";
 @import "quote.css";
@@ -7,9 +10,9 @@
 @import "articles.css";
 @import "projects.css";
 @import "features.css";
-@import "logo.css";
 @import "social.css";
 @import "flows.css";
+@import "footer.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
@@ -22,4 +25,20 @@
 
 body {
   color: #333;
+  font-size: var(--base-font-size);
+  font-family: var(--font-system);
+}
+
+main {
+  padding-top: 64px;
+}
+
+iframe {
+  max-width: 100%;
+  xheight: auto;
+}
+
+@media screen and (min-width: 60em) {
+
+
 }

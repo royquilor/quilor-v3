@@ -2,26 +2,14 @@
 justify-content: space-evenly;
 }
 
-.quote-wrap h4 {
-  height: 15rem;
-  xbackground: red;
-}
-
 .quote {
-box-shadow: 0 0 1px rgba(0,0,0, 0.15);
-xbox-shadow: 0 0 1px rgba(31,45,61,.05);
-padding: 1rem;
-border-radius: .5rem;
-xfont-family: 'Roboto Mono';
-xmargin: 5rem 1rem;
-xmargin-bottom: 3rem;
-xwidth: 50%;
+padding: var(--base-spacing);
 flex: auto;
 }
 
 .quote img {
 width: 44px;
-border-radius: 500px;
+border-radius: var(--base-radius-large);
 }
 
 .quote p {
@@ -30,6 +18,38 @@ max-width: 30em;
 }
 
 cite {
+  font-style: normal;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+blockquote {
+  font-size: var(--font-size-4);
+  line-height: var(--lh-copy);
+  max-width: var(--measure);
+  margin: 0;
+}
+
+@media screen and (min-width: 60em) {
+  blockquote {
+    font-size: var(--font-size-3);
+  }
+}
+
+.home blockquote {
+  height: 12rem;
+}
+
+.project blockquote {
+  xbackground: red;
+  height: 8rem;
+}
+
+.quote span {
+  color: var(--color-gray);
+}
+
+/* cite {
 color: #aaa;
 font-style: normal;
 font-size: 0.875rem;
@@ -39,25 +59,41 @@ align-items: center;
 
 cite img {
 margin-right: 1rem;
-}
+} */
 
 .btn-circle {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  border-radius: 500px;
-  background-color: #ffffff;
-  border: 2px solid #FF4136;
-  align-items: center;
-  justify-content: center;
-  /* box-shadow: 0 5px 5px 0 rgba(220,224,228,0.4); */
+width: 44px;
+height: 44px;
+display: inline-flex;
+border-radius: var(--base-radius-large);
+background-color: var(--color-white);
+xborder: 1px solid var(--color-red);
+align-items: center;
+justify-content: center;
+box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+transition: all .15s ease;
+}
+
+.btn-circle:hover {
+transform: translateY(-1px);
+box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.btn-circle:active {
+xborder: 1px solid var(--color-orange);
+transform: translateY(1px);
+box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
 
 .btn-circle svg {
-  fill: #FF4136;
+fill: var(--color-red);
 }
 
 .next,
 .prev {
-  cursor: pointer
+cursor: pointer
+}
+
+.prev svg {
+  transform: translateX(15%);
 }

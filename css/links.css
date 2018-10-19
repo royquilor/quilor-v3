@@ -2,43 +2,65 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  transition: all .15s ease;
+}
+
 .link {
-  xtext-decoration: underline;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid var(--color-dark-gray);
 }
 
 nav a {
-  font-size: .875rem;
+  display: inline-block;
+  color: var(=-dark-gray);
+  font-size: var(--font-size-5);
+  margin-left: var(--base-spacing);
+  font-weight: var(--font-weight-6);
 }
+
+@media screen and (min-width: 60em) {
+  nav a {
+    margin-left: var(--spacing-large);
+  }
+}
+
 
 .cta {
   text-decoration: none;
   display: inline-block;
-  font-weight: 600;
-  line-height: 1;
-  border-radius: 50px;
+  font-weight: var(--font-weight-6);
+  line-height: var(--line-height-solid);
+  border-radius: var(--base-radius-large);
   text-transform: uppercase;
   letter-spacing: 1px;
+
 }
 
 .primary {
-  background: #FF4136;
-  color: #fff;
+  background: var(--color-red);
+  color: var(--color-white);
+}
+.primary:hover {
+  background: var(--color-orange);
 }
 
 .secondary {
-  border-color: #FF4136;
+  border-color: var(--color-red);
   border-style: solid;
   border-width: 2px;
-  color: #FF4136;
+  color: var(--color-red);
+}
+.secondary:hover {
+  border-color: var(--color-orange);
+  color: var(--color-orange);
 }
 
 .cta-large {
-  font-size: .875rem;
-  padding: 1rem 2rem;
+  font-size: var(--font-size-5);
+  padding: var(--base-spacing) var(--spacing-large);
 }
 
 .cta-small {
-  font-size: .75rem;
-  padding: .5rem 1rem;
+  font-size: var(--font-size-6);
+  padding: var(--spacing-small) var(--base-spacing);
 }

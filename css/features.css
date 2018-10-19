@@ -1,12 +1,24 @@
 .features img {
-  z-index: 1;
-  margin-left: 0;
+  width: 320px;
+  margin-bottom: var(--spacing-large);
 }
-.features img:nth-child(2) {
-  margin-left: -4.5rem;
-  z-index: 3;
-}
-.features img:nth-child(3) {
-  z-index: 2;
-  margin-left: -4.5rem;
+
+@media screen and (min-width: 60em) {
+  .features img {
+    z-index: 1;
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 200px;
+  }
+  .features img:nth-child(2) {
+    z-index: 3;
+    margin-left: -4.5rem;
+    width: 320px;
+
+  }
+  .features img:nth-child(3) {
+    z-index: 2;
+    margin-left: -4.5rem;
+    width: 260px;
+  }
 }
