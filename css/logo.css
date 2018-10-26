@@ -13,3 +13,18 @@
 .logo {
   fill: url(#logo);
 }
+
+.logo #logo {
+  --color-stop-1: var(--color-red);
+  --color-stop-2: var(--color-orange);
+}
+
+.csspurge .logo #logo {
+  --color-stop-1: var(--color-white);
+  --color-stop-2: var(--color-white);
+}
+
+.csspurge .scrolled .logo #logo {
+  --color-stop-1: var(--color-red);
+  --color-stop-2: var(--color-orange);
+}

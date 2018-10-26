@@ -10,6 +10,10 @@ header {
   padding-right: var(--base-spacing);
 }
 
+header div {
+  height: 64px;
+}
+
 header.scrolled {
   background-color: rgba(255,255,255,.5);
   background-color: var(--color-white);
