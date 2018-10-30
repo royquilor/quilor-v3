@@ -68,8 +68,8 @@ const pages = [
 
 const nextTag = document.querySelector(".next")
 // const previousTag = document.querySelector(".prev")
-const outputTag = document.querySelector(".quote blockquote")
-const nameTag = document.querySelector(".quote-wrap cite")
+const outputTag = document.querySelector(".quote blockquote p")
+const nameTag = document.querySelector(".quote-wrap cite strong")
 const titleTag = document.querySelector(".quote span")
 const imgSrc = document.querySelector(".quote-wrap img")
 const numTag = document.querySelector(".number span")

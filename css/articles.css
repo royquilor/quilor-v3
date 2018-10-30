@@ -9,19 +9,10 @@ article img {
   rgba(0, 0, 0, 0.05) 0px 10px 20px;
 }
 
-article p {
-  font-size: var(--base-font-si);
-}
-
-section article div {
-  xflex: 0 0 30em;
-  xmargin-right: var(--spacing-large);
-}
-
 @media screen and (min-width: 60em) {
   section article div {
     flex: 0 0 30em;
-    margin-right: var(--spacing-large);
+    margin-right: var(--space-lg);
   }
 
   section article:nth-child(even) {
@@ -30,7 +21,7 @@ section article div {
 
   section article:nth-child(even) div {
     margin-right: 0;
-    margin-left: var(--spacing-large);
+    margin-left: var(--space-lg);
   }
 
 }

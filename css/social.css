@@ -3,36 +3,36 @@ width: 22px;
 }
 
 .social svg {
-fill: var(--color-silver);
+fill: var(--silver);
 }
 
 .social a {
-margin: 0 var(--base-spacing);
+margin: 0 var(--space-unit);
 border-bottom: 0;
 }
 
 @media screen and (min-width: 60em) {
   .social a {
-  margin-left: var(--spacing-large);
+  margin-left: var(--space-lg);
   }
 }
 
 .instagram:hover svg {
-fill: var(--color-instagram);
+fill: var(--instagram);
 }
 
 .linkedin:hover svg {
-fill: var(--color-linkedin);
+fill: var(--linkedin);
 }
 
 .dribbble:hover svg {
-fill: var(--color-dribbble);
+fill: var(--dribbble);
 }
 
 .github:hover svg {
-fill: var(--color-github);
+fill: var(--github);
 }
 
 .twitter:hover svg {
-fill: var(--color-twitter);
+fill: var(--twitter);
 }

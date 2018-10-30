@@ -37,7 +37,7 @@ const tweets = [
 
 const nextTag = document.querySelector(".tweets .next")
 const previousTag = document.querySelector(".tweets .prev")
-const outputTag = document.querySelector(".quote blockquote")
+const outputTag = document.querySelector(".quote blockquote p")
 const nameTag = document.querySelector(".quote-wrap cite")
 const tweetNumTag = document.querySelector(".number span")
 const imgSrc = document.querySelector(".quote-wrap img")

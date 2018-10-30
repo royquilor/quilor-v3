@@ -1,9 +1,4 @@
-.roboto {
-  font-family: var(--font-roboto);
-}
-
 .handwriting {
   font-family: var(--font-hand);
   transform: rotate(0deg);
-  color: var(--color-blue);
 }

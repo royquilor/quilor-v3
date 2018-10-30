@@ -1,13 +1,13 @@
 .logo.red {
-  fill: var(--color-red);
+  fill: var(--color-accent);
 }
 
 .logo.black {
-  fill: var(--color-black);
+  fill: var(--black);
 }
 
 .logo.white {
-  fill: var(--color-white);
+  fill: var(--white);
 }
 
 .logo {
@@ -15,16 +15,16 @@
 }
 
 .logo #logo {
-  --color-stop-1: var(--color-red);
-  --color-stop-2: var(--color-orange);
+  --color-stop-1: var(--color-accent);
+  --color-stop-2: var(--color-accent-2);
 }
 
 .csspurge .logo #logo {
-  --color-stop-1: var(--color-white);
-  --color-stop-2: var(--color-white);
+  --color-stop-1: var(--white);
+  --color-stop-2: var(--white);
 }
 
 .csspurge .scrolled .logo #logo {
-  --color-stop-1: var(--color-red);
-  --color-stop-2: var(--color-orange);
+  --color-stop-1: var(--color-accent);
+  --color-stop-2: var(--color-accent-2);
 }

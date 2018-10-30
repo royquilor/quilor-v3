@@ -1,14 +1,13 @@
 .csspurge .hero {
-
   position: relative;
 }
 
 .hero-split {
-  background: linear-gradient(to bottom, var(--color-red) 50%, white 0%);
+  background: linear-gradient(to bottom, var(--color-accent) 50%, white 0%);
 }
 
 .hero-elliptical {
-  background-image: linear-gradient(var(--color-red), white);
+  background-image: linear-gradient(var(--color-accent), white);
   border-bottom-left-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 25%;

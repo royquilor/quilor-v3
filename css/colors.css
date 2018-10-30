@@ -1,44 +1,40 @@
 .bg-red {
-  background-color: var(--color-red: #FF4136;)
+  background-color: var(--color-accent);
 }
 .bg-orange {
-  background-color: var(--color-orange: #FF851B;)
+  background-color: var(--color-accent-2);
 }
 .bg-blue {
-  background-color: var(--color-red: #0074D9;)
+  background-color: var(--blue);
 }
 .bg-dark-gray {
-  background-color: var(--color-red: #333;)
+  background-color: var(--color-primary);
 }
 .bg-black {
-  background-color: var(--color-red: #111;)
+  background-color: var(--black);
 }
 .bg-silver {
-  background-color: var(--color-red: #DDDDDD;)
+  background-color: var(--silver);
 }
 
-.color-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1 1 auto
+.handwriting {
+  color: var(--blue);
 }
 
-.color-wrap div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
+header.scrolled {
+  background-color: rgba(255,255,255,.5);
+  background-color: var(--white);
 }
 
-.color-wrap span {
-  margin-bottom: var(--spacing-small);
+footer,
+.more {
+  background-color: var(--black);
 }
 
-.color {
-  width: 88px;
-  height: 88px;
-  display: inline-block;
-  border-radius: var(--base-radius-large);
+footer {
+  color: var(--white);
+}
 
+footer a {
+  color: var(--white);
 }

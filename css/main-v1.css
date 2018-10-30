@@ -1,6 +1,6 @@
 @import "tachyons.min.css";
-@import "variables.css";
-@import "typography.css";
+@import "variables-v1.css";
+@import "typography-v1.css";
 @import "colors.css";
 @import "header.css";
 @import "fonts.css";
@@ -29,9 +29,9 @@
 */
 
 body {
-  color: #333;
   font-size: var(--base-font-size);
   font-family: var(--font-system);
+  color: var(--color-primary);
 }
 
 main {
@@ -40,7 +40,6 @@ main {
 
 iframe {
   max-width: 100%;
-  xheight: auto;
 }
 
 

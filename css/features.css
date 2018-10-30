@@ -1,6 +1,6 @@
 .features img {
   width: 320px;
-  margin-bottom: var(--spacing-large);
+  margin-bottom: var(--space-lg);
 }
 
 @media screen and (min-width: 60em) {

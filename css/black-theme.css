@@ -7,11 +7,11 @@
 }
 
 .black-theme header nav a {
-  color: var(--color-white);
+  color: var(--white);
 }
 
 .black-theme h1 {
-  color: var(--color-white);
+  color: var(--white);
 }
 
 .black-theme .scrolled {
@@ -19,14 +19,14 @@
 }
 
 .black-theme .scrolled nav a {
-  color: var(--color-dark-gray);
+  color: var(--color-primary);
 }
 
 .black-theme .scrolled .cta-line-white {
-  color: var(--color-red);
-  border-color: var(--color-red);
+  color: var(--color-accent);
+  border-color: var(--color-accent);
 }
 
 .black-theme .hero-skew {
-  background-color: var(--color-black);
+  background-color: var(--black);
 }

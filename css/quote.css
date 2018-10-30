@@ -3,7 +3,7 @@ justify-content: space-evenly;
 }
 
 .quote {
-padding: var(--base-spacing);
+padding: var(--space-unit);
 flex: auto;
 }
 
@@ -37,11 +37,16 @@ blockquote {
 }
 
 .home blockquote {
-  height: 12rem;
+  height: 15rem;
+}
+
+@media screen and (min-width: 60em) {
+  .home blockquote {
+    height: 12rem;
+  }
 }
 
 .project blockquote {
-  xbackground: red;
   height: 8rem;
 }
 
@@ -49,25 +54,12 @@ blockquote {
   color: var(--color-gray);
 }
 
-/* cite {
-color: #aaa;
-font-style: normal;
-font-size: 0.875rem;
-display: flex;
-align-items: center;
-}
-
-cite img {
-margin-right: 1rem;
-} */
-
 .btn-circle {
 width: 44px;
 height: 44px;
 display: inline-flex;
 border-radius: var(--base-radius-large);
-background-color: var(--color-white);
-xborder: 1px solid var(--color-red);
+background-color: var(--white);
 align-items: center;
 justify-content: center;
 box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
@@ -80,13 +72,12 @@ box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 }
 
 .btn-circle:active {
-xborder: 1px solid var(--color-orange);
 transform: translateY(1px);
 box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
 
 .btn-circle svg {
-fill: var(--color-red);
+fill: var(--color-accent);
 }
 
 .next,
