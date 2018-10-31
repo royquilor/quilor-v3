@@ -1,0 +1,29 @@
+.space-v1 {
+  padding: var(--space-unit);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.space-v2 {
+  padding: var(--space-xl);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero {
+  position: relative;
+  padding: var(--space-unit);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 60em) {
+  .hero {
+    padding: var(--space-xxxl) 0;
+  }
+  .space-v1,
+  .space-v2 {
+    padding: var(--space-xxxl) 0;
+  }
+
+}

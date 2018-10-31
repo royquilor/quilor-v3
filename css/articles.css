@@ -1,5 +1,14 @@
 article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
 }
 
 article img {
@@ -9,19 +18,31 @@ article img {
   rgba(0, 0, 0, 0.05) 0px 10px 20px;
 }
 
+article:first-child {
+  padding-top: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+article div,
+article figure {
+  padding: var(--space-unit);
+}
+
 @media screen and (min-width: 60em) {
-  section article div {
-    flex: 0 0 30em;
-    margin-right: var(--space-lg);
+  article {
+    flex-direction: row;
+    padding-top: var(--space-xxxl);
+    padding-bottom: var(--space-xxxl);
+  }
+  article div {
+    flex: 0 0 var(--measure);
   }
 
-  section article:nth-child(even) {
+  article:nth-child(even) {
     flex-direction: row-reverse;
-  }
-
-  section article:nth-child(even) div {
-    margin-right: 0;
-    margin-left: var(--space-lg);
   }
 
 }

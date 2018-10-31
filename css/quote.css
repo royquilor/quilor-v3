@@ -1,15 +1,25 @@
 .quotes {
 justify-content: space-evenly;
+
 }
 
 .quote {
+display: flex;
+flex-direction: column;
+align-items: center;
 padding: var(--space-unit);
 flex: auto;
+border-top-style: solid;
+border-top-width: 1px;
+border-color: rgba(0,0,0,.1);
+padding-top: var(--space-xl);
+padding-bottom: var(--space-xl);
 }
 
 .quote img {
 width: 44px;
 border-radius: var(--base-radius-large);
+
 }
 
 .quote p {
@@ -33,6 +43,10 @@ blockquote {
 @media screen and (min-width: 60em) {
   blockquote {
     font-size: var(--font-size-3);
+  }
+  .quote {
+    padding-top: var(--space-xxxl);
+    padding-bottom: var(--space-xxxl);
   }
 }
 

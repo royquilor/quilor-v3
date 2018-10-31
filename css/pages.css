@@ -1,7 +1,3 @@
-.csspurge .hero {
-  position: relative;
-}
-
 .hero-split {
   background: linear-gradient(to bottom, var(--color-accent) 50%, white 0%);
 }
