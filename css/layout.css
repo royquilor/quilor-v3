@@ -1,3 +1,17 @@
+.footer-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 96rem;
+}
+
+.space-a1 {
+  padding: var(--space-unit);
+}
+
 .space-v1 {
   padding: var(--space-unit);
   margin-left: auto;
@@ -5,7 +19,7 @@
 }
 
 .space-v2 {
-  padding: var(--space-xl);
+  padding: var(--space-xl) 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -24,6 +38,9 @@
   .space-v1,
   .space-v2 {
     padding: var(--space-xxxl) 0;
+  }
+  .footer-wrap {
+    flex-direction: row;
   }
 
 }

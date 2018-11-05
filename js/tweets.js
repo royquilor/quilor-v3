@@ -36,24 +36,15 @@ const tweets = [
 ]
 
 const nextTag = document.querySelector(".tweets .next")
-const previousTag = document.querySelector(".tweets .prev")
 const outputTag = document.querySelector(".quote blockquote p")
 const nameTag = document.querySelector(".quote-wrap cite")
-const tweetNumTag = document.querySelector(".number span")
+const tweetNumTag = document.querySelector(".quote-number span")
 const imgSrc = document.querySelector(".quote-wrap img")
 
 const next = function() {
   tweetNumber = tweetNumber + 1
   if (tweetNumber > tweets.length - 1) {
     tweetNumber = 0
-  }
-  updateTweet()
-}
-
-const previous = function() {
-  tweetNumber = tweetNumber - 1
-  if (tweetNumber < 0) {
-    tweetNumber = tweets.length - 1
   }
   updateTweet()
 }
@@ -72,15 +63,8 @@ nextTag.addEventListener("click", function() {
   outputTag.classList.add("fadeInLeft")
 })
 
-previousTag.addEventListener("click", function() {
-  previous()
-})
-
 document.addEventListener("keyup", function () {
   if(event.key == "ArrowRight") {
     next()
-  }
-  if(event.key == "ArrowLeft") {
-    previous()
   }
 })

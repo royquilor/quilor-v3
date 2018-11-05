@@ -16,10 +16,28 @@ padding-top: var(--space-xl);
 padding-bottom: var(--space-xl);
 }
 
+.quote-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: var(--space-lg);
+}
+
+.quote-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quote-number {
+  font-size: var(--font-size-5);
+  font-weight: var(--fw6);
+}
+
 .quote img {
 width: 44px;
 border-radius: var(--base-radius-large);
-
 }
 
 .quote p {
@@ -37,7 +55,7 @@ blockquote {
   font-size: var(--font-size-4);
   line-height: var(--lh-copy);
   max-width: var(--measure);
-  margin: 0;
+  margin: 0 0 var(--space-lg) 0;
 }
 
 @media screen and (min-width: 60em) {

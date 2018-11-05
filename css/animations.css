@@ -24,14 +24,6 @@ transform: translate3d(0, 0, 0);
 animation-name: fadeInLeft;
 }
 
-.animated {
-  -webkit-animation-duration: 300ms;
-  animation-duration: 300ms;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-
 .transition-fade {
 transition: .4s;
 opacity: 1;

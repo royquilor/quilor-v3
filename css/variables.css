@@ -1,0 +1,65 @@
+:root {
+
+/* 1. TYPOGRAPHY */
+
+--font-system: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+--font-code: menlo, consolas, monaco, monospace;
+--font-hand: 'Indie Flower', cursive;
+
+--base-font-size: 1rem;
+--font-size-1: 3rem;
+--font-size-2: 2.25rem;
+--font-size-3: 1.5rem;
+--font-size-4: 1.25rem;
+--font-size-5: 1rem;
+--font-size-6: .875rem;
+--font-size-7: .75rem;
+
+--base-line-height: 1.5;
+--lh-copy: 1.5;
+--line-height-title: 1.25;
+--line-height-solid: 1;
+
+--fw4: 400;
+--fw6: 600;
+
+--measure: 30em;
+
+/* 2. GRID & LAYOUT? */
+
+/* 3. COLORS */
+
+--color-primary: #333333;
+--color-accent: #FF4136;
+--color-accent-2: #FF851B;
+
+--white: #FFFFFF;
+--blue: #0074D9;
+--black: #111111;
+--silver: #DDDDDD;
+
+--instagram: #E4405F;
+--linkedin: #0077B5;
+--dribbble: #EA4C89;
+--github: #181717;
+--twitter: #1DA1F2;
+
+/* 4. SPACING */
+
+--space-unit: 1rem;
+--space-sm: calc(0.5 * var(--space-unit));
+--space-lg: calc(2 * var(--space-unit));
+--space-xl: calc(3.25 * var(--space-unit));
+--space-xxl: calc(5.25 * var(--space-unit));
+--space-xxxl: calc(8.5 * var(--space-unit));
+
+/* 5. ICONS? */
+
+/* 6. BUTTONS? */
+
+/* 7. OTHER */
+--base-radius: 5px;
+--base-radius-large: 50px;
+
+
+}

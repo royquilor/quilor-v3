@@ -72,7 +72,7 @@ const outputTag = document.querySelector(".quote blockquote p")
 const nameTag = document.querySelector(".quote-wrap cite strong")
 const titleTag = document.querySelector(".quote span")
 const imgSrc = document.querySelector(".quote-wrap img")
-const numTag = document.querySelector(".number span")
+const numTag = document.querySelector(".quote-number span")
 
 const next = function() {
   pageNumber = pageNumber + 1

@@ -11,10 +11,15 @@ header {
   padding-right: var(--space-unit);
 }
 
-header div {
+header .header-wrap {
   height: 64px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 96rem;
 }
 
 header .cta {

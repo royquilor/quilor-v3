@@ -9,6 +9,7 @@ fill: var(--silver);
 .social a {
 margin: 0 var(--space-unit);
 border-bottom: 0;
+text-decoration: none;
 }
 
 @media screen and (min-width: 60em) {

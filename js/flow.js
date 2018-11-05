@@ -33,8 +33,7 @@ const flows = [
   }
 ]
 
-const nextFlowTag = document.querySelector(".flows .next")
-const previousFlowTag = document.querySelector(".flows .prev")
+const nextFlowTag = document.querySelector(".flow .next")
 const copyTag = document.querySelector(".flow p")
 const headingTag = document.querySelector(".flow h3")
 const numberTag = document.querySelector(".flow span")
@@ -48,20 +47,11 @@ const nextFlow = function() {
   updateFlow()
 }
 
-const previousFlow = function() {
-  flowNumber = flowNumber - 1
-  if (flowNumber < 0) {
-    flowNumber = flows.length - 1
-  }
-  updateFlow()
-}
-
 const updateFlow = function() {
   copyTag.innerHTML = flows[flowNumber].copy
   numberTag.innerHTML = flows[flowNumber].number
   headingTag.innerHTML = flows[flowNumber].title
   imgFlow.innerHTML = flows[flowNumber].isrc
-  // imgFlow.src = flows[flowNumber].isrc
 }
 
 nextFlowTag.addEventListener("click", function() {
@@ -74,15 +64,8 @@ nextFlowTag.addEventListener("click", function() {
   imgFlow.classList.add("fadeInLeft")
 })
 
-previousFlowTag.addEventListener("click", function() {
-  previousFlow()
-})
-
 document.addEventListener("keyup", function () {
   if(event.key == "ArrowRight") {
     nextFlow()
-  }
-  if(event.key == "ArrowLeft") {
-    previousFlow()
   }
 })

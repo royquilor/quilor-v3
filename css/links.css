@@ -45,7 +45,7 @@ header nav a {
   border-radius: var(--base-radius-large);
   text-transform: uppercase;
   letter-spacing: 1px;
-
+  white-space: nowrap;
   transition: all .15s ease;
 
 }

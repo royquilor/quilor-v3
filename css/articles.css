@@ -3,15 +3,21 @@ article {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  justify-content: center;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: var(--space-xl);
   padding-bottom: var(--space-xl);
+
+
 }
 
-article img {
+.article-wrap {
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article img,
+.hero img {
   box-shadow:
   rgba(0, 0, 0, 0.075) 0px 1px 0px,
   rgba(0, 0, 0, 0.05) 0px 1px 4px,
@@ -26,22 +32,28 @@ figure {
   margin: 0;
 }
 
-article div,
+article .grid-unit,
 article figure {
   padding: var(--space-unit);
 }
 
+.best11 {
+  background-color: #509e4e;
+  color: var(--white);
+}
+
 @media screen and (min-width: 60em) {
   article {
-    flex-direction: row;
     padding-top: var(--space-xxxl);
     padding-bottom: var(--space-xxxl);
   }
-  article div {
+  .row-l {
+    flex-direction: row;
+  }
+  .row-l .grid-unit {
     flex: 0 0 var(--measure);
   }
-
-  article:nth-child(even) {
+  .row-l:nth-child(even) {
     flex-direction: row-reverse;
   }
 
