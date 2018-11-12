@@ -37,7 +37,7 @@
   }
   .space-v1,
   .space-v2 {
-    padding: var(--space-xxxl) 0;
+    padding: var(--space-xxxl) var(--space-unit);
   }
   .footer-wrap {
     flex-direction: row;
