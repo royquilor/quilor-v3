@@ -1,0 +1,69 @@
+.eye {
+display: flex;
+width: 160px;
+height: 200px;
+background-color: white;
+border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+margin-left: 2rem;
+margin-right: 2rem;
+padding-top: 3rem;
+position: relative;
+overflow: hidden;
+align-items: center;
+justify-content: center;
+}
+
+.gengar .eye {
+background-color: #F06292;
+}
+
+.triangle {
+position: relative;
+width: 0;
+height: 0;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 50px solid black;
+}
+
+.face::after {
+position: absolute;
+content: "";
+left: 50%;
+margin-left: -200px;
+top: 0;
+width: 0;
+height: 0;
+border-left: 200px solid transparent;
+border-right: 200px solid transparent;
+border-top: 200px solid #5e2ca5;
+xborder-top: 200px solid red;
+z-index: 9;
+}
+.mouth {
+  position: absolute;
+  top: 220px;
+  height: 100px;
+   width: 100%;
+   border:2px solid black;
+   background-color: white;
+   border-top-left-radius: -20%;
+   border-top-right-radius: -20%;
+   border-bottom-left-radius: 500px;
+   border-bottom-right-radius: 500px;
+display: flex;
+flex-direction: row;
+
+overflow: hidden;
+
+
+}
+
+.tooth {
+  height: 160px;
+  width: 20%;
+  border-left: 1px solid black;
+  xborder-right: 1px solid black;
+  z-index: 10;
+  position: relative;
+}
